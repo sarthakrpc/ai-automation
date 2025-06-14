@@ -9,7 +9,7 @@ Automate your day to day tasks using AI today.
 3. Install NodeJs version >= 20.16.0 (or latest LTS)
 4. Install wails - https://wails.io/docs/gettingstarted/installation
 5. Run `wails dev`, to run in development mode.
-6. Build using `wails build`, execulatbel can be found in `build/win/{appName}.exe`
+6. Build using `wails build`, executable can be found in `build/win/{appName}.exe`
 
 ## About
 
