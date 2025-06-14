@@ -1,12 +1,14 @@
 # README
+
 Automate your day to day tasks using AI today.
 
 ## How to run
+
 1. Install GoLang version >= 1.80
-2. Install NodeJs version >= 20.16.0 (or latest LTS)
-3. Add installed bin to Environment variables in Windows
+2. Add installed GoLang bin to Environment variables in Windows
+3. Install NodeJs version >= 20.16.0 (or latest LTS)
 4. Install wails - https://wails.io/docs/gettingstarted/installation
-5. Run `wails dev`, to run in development mode. 
+5. Run `wails dev`, to run in development mode.
 6. Build using `wails build`, execulatbel can be found in `build/win/{appName}.exe`
 
 ## About
