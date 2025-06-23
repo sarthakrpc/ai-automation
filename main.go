@@ -14,7 +14,7 @@ var assets embed.FS
 func main() {
 	app := NewApp()
 
-	err := wails.Run(&options.App{
+	er := wails.Run(&options.App{
 		Title:  "myproject",
 		Width:  1024,
 		Height: 768,
@@ -23,12 +23,13 @@ func main() {
 		},
 		BackgroundColour: &options.RGBA{R: 27, G: 38, B: 54, A: 1},
 		OnStartup:        app.startup,
-		Bind: []interface{}{
+		Bind: []any{
 			app,
 		},
 	})
 
-	if err != nil {
-		println("Error:", err.Error())
+	if er != nil {
+		println("Error:", er.Error())
 	}
+
 }
